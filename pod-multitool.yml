@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: multitool
+  namespace: zadanie1
+  labels:
+    app: multitool
+spec:
+  containers:
+  - name: multitool
+    image: wbitt/network-multitool
